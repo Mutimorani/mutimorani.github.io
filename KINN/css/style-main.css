@@ -1,0 +1,335 @@
+.welcome-photo {
+  margin-top: 140px;
+  position: relative;
+  color: #56593d;
+  font-weight: 400;
+}
+
+.welcome-words-on-photo {
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 145px;
+  right: 64px;
+  font-size: 45px;
+  line-height: 60px;
+  /* identical to box height, or 134% */
+
+  text-align: right;
+}
+
+.all-collections {
+  font-size: 18px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 1.8px;
+}
+
+.button-shop {
+  position: absolute;
+  background: #56593d;
+  border-radius: 0px;
+  position: absolute;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 1.575px;
+  text-transform: uppercase;
+  bottom: 65px;
+  right: 64px;
+  border-color: #56593d;
+  border-style: hidden;
+  color: #ffffef;
+  padding: 16px 25px 16px 25px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #898e61;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #56593d;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.welcome-words-after-photo {
+  margin-top: 110px;
+  left: calc(50% - 1194px / 2);
+  font-size: 57px;
+  line-height: 142%;
+  margin-bottom: 140px;
+  text-align: center;
+  margin-bottom: 140px;
+  color: #56593d;
+}
+
+.first-board-label {
+  left: calc(50% - 254px / 2);
+  font-size: 26px;
+  line-height: 135%;
+  text-align: center;
+  color: #56593d;
+  margin-bottom: 80px;
+}
+
+.collection-boards {
+  display: grid;
+
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-bottom: 80px;
+  grid-gap: 10px;
+  justify-content: space-evenly;
+}
+
+.collection-boards img {
+  max-height: 30vh;
+  max-width: 40vw;
+}
+
+.name {
+  margin-top: 15px;
+}
+.price {
+  margin-top: 7px;
+}
+.name,
+.price {
+  left: calc(50% - 143px / 2 + 15.52px);
+  font-size: 16px;
+  line-height: 135%;
+  color: #56593d;
+}
+
+.minimalism {
+  position: relative;
+  color: #56593d;
+  margin-bottom: 105px;
+}
+.essent {
+  position: absolute;
+  top: 62px;
+  left: calc(50% - 159px / 2 - 0.5px);
+  font-size: 17px;
+  line-height: 127%;
+  letter-spacing: 1.8px;
+}
+
+.we-believe {
+  position: absolute;
+  top: 95px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 121%;
+  padding: 1px 1px 1px 1px;
+}
+
+.story-block {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.design-block {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-items: center;
+  margin-top: 10px;
+  padding-right: 1%;
+  background-color: #ffffff;
+}
+.design-text,
+.story-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 125px;
+  text-align: center;
+  color: #56593d;
+  max-width: 345px;
+}
+.photo-to {
+  align-items: center;
+  padding-top: 10%;
+}
+
+.story-mg {
+  max-height: 60vh;
+  max-width: 40vw;
+}
+
+.story-text h2,
+.design-text h2 {
+  font-size: 29px;
+  line-height: 39px;
+  line-height: 135%;
+  margin-bottom: 66px;
+  left: calc(50% - 277px / 2 - 0.19px);
+}
+
+.sign-up-dv {
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+  color: #56593d;
+}
+.sign-up-letters {
+  left: calc(50% - 319px / 2 + 0.5px);
+  top: 30px;
+  font-size: 28px;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.receive-sp-offs {
+  left: calc(50% - 410px / 2);
+  font-size: 17px;
+  line-height: 169%;
+  margin-bottom: 50px;
+}
+.input-sign-up {
+  border: none;
+  border-bottom: 1px solid #56593d;
+  margin-right: 17px;
+}
+
+.button-to-sign-up {
+  background: #56593d;
+  border-radius: 0px;
+  padding: 0 25px 0 25px;
+  font-size: 15px;
+  line-height: 151%;
+  border: none;
+  text-align: center;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+
+  color: #ffffef;
+}
+
+.kinn-moment-htg {
+  text-align: center;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height, or 130% */
+
+  text-align: center;
+
+  color: #56593d;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.kinn-moment-photos {
+  display: flex;
+  row-gap: 30px;
+  column-gap: 10px;
+  margin-top: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  column-count: 4;
+}
+.kinn-moments-dv {
+  margin-bottom: 130px;
+}
+
+#popup {
+  position: fixed; /*фиксированное позиционирование*/
+  top: -100%; /*прячем окно за пределы видимости*/
+  left: 50%; /*позиция окна слева*/
+  transform: translate(-50%, -50%);
+  z-index: 1000; /*на верхний слой*/
+  background: #fffcff;
+  width: 450px;
+  padding: 50px 50px 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  visibility: hidden; /*скрываем окно*/
+}
+#popup.active {
+  visibility: visible; /*показываем окно*/
+  top: 50%; /*окно выдвигается сверху*/
+}
+#popup .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /*направление главной оси*/
+}
+
+#popup .content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color:  #56593d;
+  margin: 10px 0 10px;
+  text-align: center;
+}
+#popup .content p {
+  text-align: center;
+  font-size: 16px;
+  color: #56593d;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.close img {
+  max-width: 30px;
+}

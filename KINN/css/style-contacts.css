@@ -1,0 +1,49 @@
+
+.map-container {
+  background-color: #ffffff;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-adress{
+    margin-top:250px;
+}
+
+
+.create-line {
+  width: 660px;
+  margin-top: 1%;
+  margin-bottom: 50px;
+  margin-left: calc(50% - 330px);
+  border-top: 1px solid rgb(0, 0, 0);
+}
+h1 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 90%;
+  text-align: center;
+  color: #56593d;
+}
+
+table.iksweb {
+  width: 30vw;
+
+  border-spacing: 0;
+  height: auto;
+}
+table.iksweb td,
+table.iksweb th {
+  min-height: 35px;
+  padding: 3px;
+  padding-left: 5px;
+  width: 10px;
+  height: 35px;
+}
+table.iksweb th {
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer{
+    height: 300px;
+}

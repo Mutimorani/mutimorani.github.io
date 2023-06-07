@@ -1,0 +1,54 @@
+h2 {
+  margin-top: 150px;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 134%;
+  /* or 134% */
+
+  text-align: center;
+
+  color: #56593d;
+  margin-bottom: 20px;
+}
+
+.first-path {
+  display: flex;
+  padding: 2%;
+  padding-left: 5%;
+  gap: 5%;
+  margin: 50px 70px 0 70px;
+  justify-content: space-between;
+}
+
+.first-path p {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.product img{
+  max-height: 60vh;
+  max-width: 60vw;
+}
+
+.text-ptice{
+    max-height: 30vh;
+  max-width: 40vw;
+}
+
+.desc {
+  padding: 5%;
+}
+.second-path {
+  background-color: #ffffef;
+  margin: 0px 0px 100px 70px;
+  padding: 30px;
+  text-align: justify;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  /* or 158% */
+  text-indent: 3%;
+  letter-spacing: 0.05em;
+}
