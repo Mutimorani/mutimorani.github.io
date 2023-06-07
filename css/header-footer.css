@@ -59,7 +59,9 @@ body {
 
 .wrapper {
   max-width: 1328px;
-  margin: 0 auto;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right:10%;
   /*позицииноривание по центру*/
 }
 .header {
